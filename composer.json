@@ -1,0 +1,26 @@
+{
+  "name": "crystalanthill/magento2-app-toolkit",
+  "description": "Crystal Anthill AppToolkit module for Magento 2",
+  "version": "1.0.7",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Crystal Anthill Software Development",
+      "homepage": "https://www.crystalanthill.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1.0",
+    "magento/framework": ">=103.0.0",
+    "magento/module-backend": ">=102.0.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "CrystalAnthill\\AppToolkit\\": ""
+    }
+  }
+}
